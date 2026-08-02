@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B811D88A6D3CB17AC9A9F26 /* CloudCoverageDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BB0554B17C314F40CFC6C /* CloudCoverageDial.swift */; };
+		1A62E4242F636FFFDDEB2C9A /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDC238EC00666EF319070A /* EmptyStateView.swift */; };
+		2C29EBE3A2E989B3DCCD1052 /* bgSky.png in Resources */ = {isa = PBXBuildFile; fileRef = C319A3E9357539FD28585645 /* bgSky.png */; };
+		2E40C0A96CE2BA80684A1BA9 /* CloudHistoryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65877F513A7A6ECD017441B /* CloudHistoryPoint.swift */; };
+		3685DBCF69D1CB64F2961109 /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEF1D77BDBEC382629A38 /* AppLink.swift */; };
+		3BFF63FD0C549B135B8FF167 /* bannerChart.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6649188759AA4BA8942F28 /* bannerChart.png */; };
+		4327D9576CC2FBB309095872 /* CloudLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8BBD191D36954B8E35CBE /* CloudLogEntry.swift */; };
+		45D7CAD17953F7B4E877B2D0 /* SkyTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490582D1272177E3A8EC2BD /* SkyTrackerView.swift */; };
+		5067B9CC949FD7EDF94E60CA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E504753D5CE44CFA1EDCEC /* OnboardingView.swift */; };
+		52A65611647D5E6326A4654E /* ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8CE2CF15C98CFE29551BBD /* ScreenBackground.swift */; };
+		53B3218504FF4B496C12BED2 /* PrivacyPolicy.md in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB542EF77B11683C1D60FB /* PrivacyPolicy.md */; };
+		6163D08DD3254CBEB0BDD8C1 /* artHorizon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EEE1CAEBF294C43FCA4BBE /* artHorizon.png */; };
+		63615BB8E5012047599ADFE8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00BEDA838C8F516F30956AE /* MainTabView.swift */; };
+		65FD7EB49CC7C25586CA32B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8C3DEA10BC4C0AF035AF8 /* ContentView.swift */; };
+		66B44A0D52BE71ED4D1C7502 /* FloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79059275D1CB797109692263 /* FloatingTabBar.swift */; };
+		733CAE1C476E51E949F53C67 /* HorizonGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80C7FBAE58A55020B897F55 /* HorizonGraphic.swift */; };
+		80CF99EC1DE069FA8D347F73 /* SkyTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68290874EB549AD14B2FC9CC /* SkyTrackerViewModel.swift */; };
+		831D2F8059C5BDB2BE1E4FA6 /* CloudLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2F05034CB38FFA2A116B5 /* CloudLogView.swift */; };
+		8472C146AF8E6841569E1D78 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E85F6376C064038E6BD5639 /* AppDataStore.swift */; };
+		9CABBFEBAAEAE6D7B193E61D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8851E342A276A54691F6E /* SceneDelegate.swift */; };
+		A216A394C2AA3E80305DAAE0 /* CoverageLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076923B9D471B2D0DEABB825 /* CoverageLineChart.swift */; };
+		A42028432AF7803445AEF6B9 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4CC8875121F1AD91BE2D1 /* Achievement.swift */; };
+		A7E31C4B9F2D4A81B6C05E12 /* StatsCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E31C4B9F2D4A81B6C05E11 /* StatsCharts.swift */; };
+		B5EC09AFC56AD96E5B7CCCCC /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EE1C44DA619F35DF0AC26 /* NotificationNames.swift */; };
+		B6667054C3A993C19343706A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC84D82088935F9F1CF4023 /* AppDelegate.swift */; };
+		B8F42D5C0E3E5B92C7D16F23 /* KeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F42D5C0E3E5B92C7D16F22 /* KeyboardDismiss.swift */; };
+		C191859FB6BFA4506803F057 /* TermsOfUse.md in Resources */ = {isa = PBXBuildFile; fileRef = AD4D1D5AC759B7BF424F1483 /* TermsOfUse.md */; };
+		C2F0976334F724B96B6521B1 /* BannerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA355C9AAB0CFD8A91F1E57 /* BannerViews.swift */; };
+		C4871255B9553BE193B7A247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A206D4242052A4A9435C5D94 /* Assets.xcassets */; };
+		C9770EFC1ED76D8CFF15A98C /* bannerCloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A1A9963FE114B884D6E077 /* bannerCloud.png */; };
+		C9A53E6D1F4F6C03D8E27A34 /* ObservationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A53E6D1F4F6C03D8E27A33 /* ObservationModels.swift */; };
+		CDC18FE0434E914DCE921058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5779BAB9E2F03C3C28EE6FE /* LaunchScreen.storyboard */; };
+		CF979B32DA45EA62541023B9 /* GlassPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B21E0BE00BB2B3C17B3B8 /* GlassPanel.swift */; };
+		D0B64F7E20507D14E9F38045 /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B64F7E20507D14E9F38044 /* ReminderScheduler.swift */; };
+		E1C7508F31618E25FA049156 /* ObservationControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7508F31618E25FA049155 /* ObservationControls.swift */; };
+		EFA4A80C49751FA1B44400BF /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC053788A0FE95B2B1A733 /* InsightsView.swift */; };
+		F56A62B15569313A14135AB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5F819E423CE50F5B5E904 /* SettingsView.swift */; };
+		F9453346B1B9D4ED32198ED6 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FC1AFE88A315E0A4D092B /* HapticFeedback.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C8C3DEA10BC4C0AF035AF8 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		076923B9D471B2D0DEABB825 /* CoverageLineChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoverageLineChart.swift; sourceTree = "<group>"; };
+		12E504753D5CE44CFA1EDCEC /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1F8CE2CF15C98CFE29551BBD /* ScreenBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenBackground.swift; sourceTree = "<group>"; };
+		20F22EF1A3275485208D2796 /* 320ClimacastInsights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 320ClimacastInsights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBB542EF77B11683C1D60FB /* PrivacyPolicy.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = PrivacyPolicy.md; sourceTree = "<group>"; };
+		2E2276AA7DE9C77D7619EE88 /* Pods_320ClimacastInsights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_320ClimacastInsights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7B21E0BE00BB2B3C17B3B8 /* GlassPanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlassPanel.swift; sourceTree = "<group>"; };
+		2E9EE1C44DA619F35DF0AC26 /* NotificationNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		329FC1AFE88A315E0A4D092B /* HapticFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		3490582D1272177E3A8EC2BD /* SkyTrackerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkyTrackerView.swift; sourceTree = "<group>"; };
+		3BC84D82088935F9F1CF4023 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68290874EB549AD14B2FC9CC /* SkyTrackerViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkyTrackerViewModel.swift; sourceTree = "<group>"; };
+		6E85F6376C064038E6BD5639 /* AppDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		79059275D1CB797109692263 /* FloatingTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatingTabBar.swift; sourceTree = "<group>"; };
+		7CA5F819E423CE50F5B5E904 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		89A1A9963FE114B884D6E077 /* bannerCloud.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bannerCloud.png; sourceTree = "<group>"; };
+		8A4BEF1D77BDBEC382629A38 /* AppLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		93DDC238EC00666EF319070A /* EmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		9FC8BBD191D36954B8E35CBE /* CloudLogEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudLogEntry.swift; sourceTree = "<group>"; };
+		A206D4242052A4A9435C5D94 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5EEE1CAEBF294C43FCA4BBE /* artHorizon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = artHorizon.png; sourceTree = "<group>"; };
+		A5F2F05034CB38FFA2A116B5 /* CloudLogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudLogView.swift; sourceTree = "<group>"; };
+		A7E31C4B9F2D4A81B6C05E11 /* StatsCharts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatsCharts.swift; sourceTree = "<group>"; };
+		AC4BB0554B17C314F40CFC6C /* CloudCoverageDial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudCoverageDial.swift; sourceTree = "<group>"; };
+		AD4D1D5AC759B7BF424F1483 /* TermsOfUse.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = TermsOfUse.md; sourceTree = "<group>"; };
+		B00BEDA838C8F516F30956AE /* MainTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B3CBD14CC82E402F68EF278F /* Pods-320ClimacastInsights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-320ClimacastInsights.release.xcconfig"; path = "Target Support Files/Pods-320ClimacastInsights/Pods-320ClimacastInsights.release.xcconfig"; sourceTree = "<group>"; };
+		B80C7FBAE58A55020B897F55 /* HorizonGraphic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizonGraphic.swift; sourceTree = "<group>"; };
+		B8F42D5C0E3E5B92C7D16F22 /* KeyboardDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyboardDismiss.swift; sourceTree = "<group>"; };
+		BDDC053788A0FE95B2B1A733 /* InsightsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		C319A3E9357539FD28585645 /* bgSky.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bgSky.png; sourceTree = "<group>"; };
+		C46AE36B099776B8519B6D73 /* Pods-320ClimacastInsights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-320ClimacastInsights.debug.xcconfig"; path = "Target Support Files/Pods-320ClimacastInsights/Pods-320ClimacastInsights.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A53E6D1F4F6C03D8E27A33 /* ObservationModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObservationModels.swift; sourceTree = "<group>"; };
+		CDA355C9AAB0CFD8A91F1E57 /* BannerViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BannerViews.swift; sourceTree = "<group>"; };
+		D0B64F7E20507D14E9F38044 /* ReminderScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		D5779BAB9E2F03C3C28EE6FE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D65877F513A7A6ECD017441B /* CloudHistoryPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudHistoryPoint.swift; sourceTree = "<group>"; };
+		D7001E57750768636FE2FEBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6649188759AA4BA8942F28 /* bannerChart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bannerChart.png; sourceTree = "<group>"; };
+		DDD8851E342A276A54691F6E /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1C7508F31618E25FA049155 /* ObservationControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObservationControls.swift; sourceTree = "<group>"; };
+		F57C9FA8B53C9B82B52D00C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FFE4CC8875121F1AD91BE2D1 /* Achievement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9149BAE543710441DBB3F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1035C7C5A36B67FA54DA6792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73DC3924974DD407C7517B8 /* iOS */,
+				2E2276AA7DE9C77D7619EE88 /* Pods_320ClimacastInsights.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DECCFD6F0CD8F05514359AD /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				429A0C54210B42B54F5EBABD /* artHorizon.imageset */,
+				590B95EC21610F33A8410537 /* bannerChart.imageset */,
+				983ABA691B7B65D0F21589AD /* bannerCloud.imageset */,
+				63460DC86EF7100FCC1AF7C7 /* bgSky.imageset */,
+			);
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		327CC3B03E69EC71C67AE52A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6E85F6376C064038E6BD5639 /* AppDataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		429A0C54210B42B54F5EBABD /* artHorizon.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				A5EEE1CAEBF294C43FCA4BBE /* artHorizon.png */,
+			);
+			path = artHorizon.imageset;
+			sourceTree = "<group>";
+		};
+		472D6E577A2B4BE394FD2E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3CBD14CC82E402F68EF278F /* Pods-320ClimacastInsights.release.xcconfig */,
+				C46AE36B099776B8519B6D73 /* Pods-320ClimacastInsights.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		590B95EC21610F33A8410537 /* bannerChart.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				DC6649188759AA4BA8942F28 /* bannerChart.png */,
+			);
+			path = bannerChart.imageset;
+			sourceTree = "<group>";
+		};
+		63460DC86EF7100FCC1AF7C7 /* bgSky.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				C319A3E9357539FD28585645 /* bgSky.png */,
+			);
+			path = bgSky.imageset;
+			sourceTree = "<group>";
+		};
+		6C68EEB532B90491FBF9B3E2 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D5779BAB9E2F03C3C28EE6FE /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		86FAF4C0FD6AAC527F0B65AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4CC8875121F1AD91BE2D1 /* Achievement.swift */,
+				D65877F513A7A6ECD017441B /* CloudHistoryPoint.swift */,
+				9FC8BBD191D36954B8E35CBE /* CloudLogEntry.swift */,
+				C9A53E6D1F4F6C03D8E27A33 /* ObservationModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88DDB7CAD6122D394EC0787F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F22EF1A3275485208D2796 /* 320ClimacastInsights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983ABA691B7B65D0F21589AD /* bannerCloud.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				89A1A9963FE114B884D6E077 /* bannerCloud.png */,
+			);
+			path = bannerCloud.imageset;
+			sourceTree = "<group>";
+		};
+		9BB826ACBD6F573D3E94856F = {
+			isa = PBXGroup;
+			children = (
+				88DDB7CAD6122D394EC0787F /* Products */,
+				1035C7C5A36B67FA54DA6792 /* Frameworks */,
+				9DAC6552D3A2F8630440B428 /* 320ClimacastInsights */,
+				472D6E577A2B4BE394FD2E3C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAC6552D3A2F8630440B428 /* 320ClimacastInsights */ = {
+			isa = PBXGroup;
+			children = (
+				D8808C7D5976EB76DACAB6E8 /* App */,
+				FD085DDD261BB2CFE548897C /* Components */,
+				86FAF4C0FD6AAC527F0B65AB /* Models */,
+				327CC3B03E69EC71C67AE52A /* Services */,
+				C2FC5A3EC3BC63EB03318463 /* Utilities */,
+				F8E71125680C6C18B72C6547 /* ViewModels */,
+				F649AB5F6B5ED3CA8B475775 /* Views */,
+				D7001E57750768636FE2FEBB /* Info.plist */,
+				A206D4242052A4A9435C5D94 /* Assets.xcassets */,
+				6C68EEB532B90491FBF9B3E2 /* Base.lproj */,
+				2DECCFD6F0CD8F05514359AD /* Assets.xcassets */,
+				A7496E5511C105195C0C4C1F /* Resources */,
+			);
+			path = 320ClimacastInsights;
+			sourceTree = "<group>";
+		};
+		A7496E5511C105195C0C4C1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB542EF77B11683C1D60FB /* PrivacyPolicy.md */,
+				AD4D1D5AC759B7BF424F1483 /* TermsOfUse.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C2FC5A3EC3BC63EB03318463 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BEF1D77BDBEC382629A38 /* AppLink.swift */,
+				329FC1AFE88A315E0A4D092B /* HapticFeedback.swift */,
+				B8F42D5C0E3E5B92C7D16F22 /* KeyboardDismiss.swift */,
+				2E9EE1C44DA619F35DF0AC26 /* NotificationNames.swift */,
+				D0B64F7E20507D14E9F38044 /* ReminderScheduler.swift */,
+				1F8CE2CF15C98CFE29551BBD /* ScreenBackground.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D8808C7D5976EB76DACAB6E8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3BC84D82088935F9F1CF4023 /* AppDelegate.swift */,
+				DDD8851E342A276A54691F6E /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F649AB5F6B5ED3CA8B475775 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5F2F05034CB38FFA2A116B5 /* CloudLogView.swift */,
+				02C8C3DEA10BC4C0AF035AF8 /* ContentView.swift */,
+				BDDC053788A0FE95B2B1A733 /* InsightsView.swift */,
+				B00BEDA838C8F516F30956AE /* MainTabView.swift */,
+				12E504753D5CE44CFA1EDCEC /* OnboardingView.swift */,
+				7CA5F819E423CE50F5B5E904 /* SettingsView.swift */,
+				3490582D1272177E3A8EC2BD /* SkyTrackerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F73DC3924974DD407C7517B8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F57C9FA8B53C9B82B52D00C4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F8E71125680C6C18B72C6547 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				68290874EB549AD14B2FC9CC /* SkyTrackerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FD085DDD261BB2CFE548897C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CDA355C9AAB0CFD8A91F1E57 /* BannerViews.swift */,
+				AC4BB0554B17C314F40CFC6C /* CloudCoverageDial.swift */,
+				076923B9D471B2D0DEABB825 /* CoverageLineChart.swift */,
+				93DDC238EC00666EF319070A /* EmptyStateView.swift */,
+				79059275D1CB797109692263 /* FloatingTabBar.swift */,
+				2E7B21E0BE00BB2B3C17B3B8 /* GlassPanel.swift */,
+				B80C7FBAE58A55020B897F55 /* HorizonGraphic.swift */,
+				E1C7508F31618E25FA049155 /* ObservationControls.swift */,
+				A7E31C4B9F2D4A81B6C05E11 /* StatsCharts.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA60073195DC07B7476E87DA /* 320ClimacastInsights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB38194A820C6725CC667F71 /* Build configuration list for PBXNativeTarget "320ClimacastInsights" */;
+			buildPhases = (
+				9B408EB9BE2C8D7723E4B289 /* [CP] Check Pods Manifest.lock */,
+				39CCAB0B2214B2A08E947EEB /* Sources */,
+				F9149BAE543710441DBB3F6B /* Frameworks */,
+				640EBA163DBE88DDD5A1D6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 320ClimacastInsights;
+			productName = 320ClimacastInsights;
+			productReference = 20F22EF1A3275485208D2796 /* 320ClimacastInsights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEBA09504BC115CB9DAE7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = 9D7C09603630D177CE30A012 /* Build configuration list for PBXProject "320ClimacastInsights" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB826ACBD6F573D3E94856F;
+			productRefGroup = 88DDB7CAD6122D394EC0787F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA60073195DC07B7476E87DA /* 320ClimacastInsights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		640EBA163DBE88DDD5A1D6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4871255B9553BE193B7A247 /* Assets.xcassets in Resources */,
+				CDC18FE0434E914DCE921058 /* LaunchScreen.storyboard in Resources */,
+				6163D08DD3254CBEB0BDD8C1 /* artHorizon.png in Resources */,
+				3BFF63FD0C549B135B8FF167 /* bannerChart.png in Resources */,
+				C9770EFC1ED76D8CFF15A98C /* bannerCloud.png in Resources */,
+				2C29EBE3A2E989B3DCCD1052 /* bgSky.png in Resources */,
+				53B3218504FF4B496C12BED2 /* PrivacyPolicy.md in Resources */,
+				C191859FB6BFA4506803F057 /* TermsOfUse.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B408EB9BE2C8D7723E4B289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-320ClimacastInsights-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39CCAB0B2214B2A08E947EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6667054C3A993C19343706A /* AppDelegate.swift in Sources */,
+				9CABBFEBAAEAE6D7B193E61D /* SceneDelegate.swift in Sources */,
+				C2F0976334F724B96B6521B1 /* BannerViews.swift in Sources */,
+				0B811D88A6D3CB17AC9A9F26 /* CloudCoverageDial.swift in Sources */,
+				A216A394C2AA3E80305DAAE0 /* CoverageLineChart.swift in Sources */,
+				A7E31C4B9F2D4A81B6C05E12 /* StatsCharts.swift in Sources */,
+				1A62E4242F636FFFDDEB2C9A /* EmptyStateView.swift in Sources */,
+				66B44A0D52BE71ED4D1C7502 /* FloatingTabBar.swift in Sources */,
+				CF979B32DA45EA62541023B9 /* GlassPanel.swift in Sources */,
+				733CAE1C476E51E949F53C67 /* HorizonGraphic.swift in Sources */,
+				A42028432AF7803445AEF6B9 /* Achievement.swift in Sources */,
+				2E40C0A96CE2BA80684A1BA9 /* CloudHistoryPoint.swift in Sources */,
+				4327D9576CC2FBB309095872 /* CloudLogEntry.swift in Sources */,
+				C9A53E6D1F4F6C03D8E27A34 /* ObservationModels.swift in Sources */,
+				E1C7508F31618E25FA049156 /* ObservationControls.swift in Sources */,
+				8472C146AF8E6841569E1D78 /* AppDataStore.swift in Sources */,
+				3685DBCF69D1CB64F2961109 /* AppLink.swift in Sources */,
+				F9453346B1B9D4ED32198ED6 /* HapticFeedback.swift in Sources */,
+				B8F42D5C0E3E5B92C7D16F23 /* KeyboardDismiss.swift in Sources */,
+				D0B64F7E20507D14E9F38045 /* ReminderScheduler.swift in Sources */,
+				B5EC09AFC56AD96E5B7CCCCC /* NotificationNames.swift in Sources */,
+				52A65611647D5E6326A4654E /* ScreenBackground.swift in Sources */,
+				80CF99EC1DE069FA8D347F73 /* SkyTrackerViewModel.swift in Sources */,
+				831D2F8059C5BDB2BE1E4FA6 /* CloudLogView.swift in Sources */,
+				65FD7EB49CC7C25586CA32B5 /* ContentView.swift in Sources */,
+				EFA4A80C49751FA1B44400BF /* InsightsView.swift in Sources */,
+				63615BB8E5012047599ADFE8 /* MainTabView.swift in Sources */,
+				5067B9CC949FD7EDF94E60CA /* OnboardingView.swift in Sources */,
+				F56A62B15569313A14135AB0 /* SettingsView.swift in Sources */,
+				45D7CAD17953F7B4E877B2D0 /* SkyTrackerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AE5F87124105A4E372D4813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6584ACBE753B047074A8538E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46AE36B099776B8519B6D73 /* Pods-320ClimacastInsights.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 320ClimacastInsights/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Climacast Insights";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.cl1m4c8st1ns9ghts;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99A75464A5EA0483AAE5C3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B0C71BEE65A79A2647AFBEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CBD14CC82E402F68EF278F /* Pods-320ClimacastInsights.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 320ClimacastInsights/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Climacast Insights";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.cl1m4c8st1ns9ghts;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D7C09603630D177CE30A012 /* Build configuration list for PBXProject "320ClimacastInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE5F87124105A4E372D4813 /* Debug */,
+				99A75464A5EA0483AAE5C3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB38194A820C6725CC667F71 /* Build configuration list for PBXNativeTarget "320ClimacastInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C71BEE65A79A2647AFBEC9 /* Release */,
+				6584ACBE753B047074A8538E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEBA09504BC115CB9DAE7FE /* Project object */;
+}
